@@ -1,32 +1,54 @@
-body{
-    font-family: 'Roboto', 'Raleway,' sans-serif;
-color: black;
-}
+body {font-family: 'Roboto', 'Raleway,' sans-serif;
+color: color: #212121;}
 
-button{
-    cursor: pointer;
-}
+button {cursor: pointer;}
+
+a {text-decoration: none;}
+
+li {list-style: none;}
+
+:root {--brand-color-: color: #2196F3;
+--brand-color-header: #212121;
+--brand-color-footer: #FFFFFF;
+--info-color: #757575;}}
 
 /*------------HEADER------------------------------*/
-.header {}
+.header {background: #FFFFFF;}
 
 .header-nav {}
 
 .header-nav-link {}
 
-.logo {}
+.logo {font-weight: 700;
+    font-size: 26px;}
+
+.logo-text-web {font-family: 'Raleway';
+    color: var(--brand-color-);}
+
+.logo-text-studio {font-family: 'Raleway';
+    color: var(--brand-color-header);}
 
 .list-nav {}
 
 .list-item-nav {}
 
-.list-nav-link {}
+.list-nav-link:hover,
+.list-contact-link:hover {color: #2196F3;}
+
+.list-nav-link {font-family: 'Roboto';
+    font-weight: 500;
+        font-size: 14px;
+        color: #212121;;
+    }
+.list-contact-link {font-family: 'Roboto';
+    font-weight: 500;
+        font-size: 14px;
+    color: var(--info-color);}
 
 .list-contact {}
 
 .list-contact-item {}
 
-.list-contact-link {}
 /*------------MAIN--------------------------------*/
 
 /*-----------FOOTER-------------------------------*/
