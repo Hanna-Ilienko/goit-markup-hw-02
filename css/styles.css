@@ -1,54 +1,84 @@
 body {font-family: 'Roboto', 'Raleway,' sans-serif;
-color: color: #212121;}
+color: #212121}
 
 button {cursor: pointer;}
 
-a {text-decoration: none;}
+li {list-style: none;
+font-style: normal;}
 
-li {list-style: none;}
+a{text-decoration: none;}
 
-:root {--brand-color-: color: #2196F3;
+:root {
+    --brand-color-: #2196F3;
 --brand-color-header: #212121;
 --brand-color-footer: #FFFFFF;
---info-color: #757575;}}
+--info-color: #757575;}
 
 /*------------HEADER------------------------------*/
 .header {background: #FFFFFF;}
 
+
 .header-nav {}
 
-.header-nav-link {}
+.logo-link {}
 
 .logo {font-weight: 700;
-    font-size: 26px;}
+    font-size: 26px;
+line-height: 1.19em;}
 
-.logo-text-web {font-family: 'Raleway';
+.logo-text_web {font-family: 'Raleway';
     color: var(--brand-color-);}
 
-.logo-text-studio {font-family: 'Raleway';
+.logo-text_studio {font-family: 'Raleway';
     color: var(--brand-color-header);}
 
-.list-nav {}
+.nav-list {}
 
-.list-item-nav {}
+.nav-item {}
 
-.list-nav-link:hover,
-.list-contact-link:hover {color: #2196F3;}
+.nav-link:hover,
+.contact-link:hover,
+.adress-link:hover {color: #2196F3;}
 
-.list-nav-link {font-family: 'Roboto';
+.nav-link {font-family: 'Roboto';
     font-weight: 500;
         font-size: 14px;
-        color: #212121;;
+        color: #212121;
+        line-height: 1.14em;
     }
-.list-contact-link {font-family: 'Roboto';
+.contact-link {font-family: 'Roboto';
     font-weight: 500;
         font-size: 14px;
-    color: var(--info-color);}
+    color: var(--info-color);
+line-height: 1.14em;}
 
-.list-contact {}
+.contact-list {}
 
-.list-contact-item {}
+.contact-item {}
 
 /*------------MAIN--------------------------------*/
 
 /*-----------FOOTER-------------------------------*/
+.footer {background: #2F303A;}
+
+.logo-link {}
+
+.logo {}
+
+.logo-text_web {}
+
+.footer-logo-text_studio {font-family: 'Raleway';
+    color: var(--brand-color-footer);}
+
+.address {}
+
+.adress-list {}
+
+.adress-item {}
+
+.adress-link {font-family: 'Roboto';
+    color: #FFFFFF;
+    font-weight: 400;
+        font-size: 14px;
+line-height: 1.71em;}
+
