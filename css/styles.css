@@ -10,8 +10,7 @@ font-style: normal;}
 
 a{text-decoration: none;}
 
-:root {
-    --brand-color: #2196F3;
+:root {--brand-color: #2196F3;
 --brand-color-header: #212121;
 --brand-color-footer: #FFFFFF;
 --info-color: #757575;
@@ -19,6 +18,7 @@ a{text-decoration: none;}
 --footer-color: #2F303A;
 --header-color: #FFFFFF;
 --button-color: #2196F3;
+--buttons-btn-color: #F5F4FA;
 --text-color: #757575;}
 
 /*---------------HEADER------------------------------*/
@@ -78,7 +78,10 @@ letter-spacing: 0.02em;}
 font-weight: 700;
     font-size: 16px;
     line-height: 1.88em;
-    letter-spacing: 0.03em;
+display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
     color: #FFFFFF;}
 
 .company {}
@@ -113,7 +116,7 @@ font-weight: 700;
 
 .work-image {}
 
-.subtitle-fourth {font-weight: 500;
+.subtitle-fifth {font-weight: 500;
     font-size: 16px;
     line-height: 1.19em;
     letter-spacing: 0.03em;
@@ -128,7 +131,44 @@ font-weight: 700;
 .workers-image {}
 /*-----------portfolio---MAIN---------------------*/
 
+.portfolio {}
 
+.buttons {}
+
+.buttons-list {}
+
+.buttons-item {}
+
+.buttons-btn {background: var(--buttons-btn-color);
+        border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62em;
+    letter-spacing: 0.03em;
+text-align: center;}
+
+.buttons-btn:hover{background: var(--brand-color);
+color: #FFFFFF;
+    border-radius: 4px;}
+
+.projects {}
+
+.projects-list {}
+
+.projects-item {}
+
+.projects-image {}
+
+.subtitle-fourth {font-weight: 700;
+    font-size: 18px;
+    line-height: 2em;
+    letter-spacing: 0.06em;}
+
+.projects-p {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87em;
+    letter-spacing: 0.03em;
+color: var(--text-color);}
 
 /*-----------FOOTER-------------------------------*/
 .footer {background: var(--footer-color);}
